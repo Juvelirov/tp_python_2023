@@ -179,40 +179,29 @@ class Seaplane(Plane, Ship):
         else:
             raise ValueError("The value must be an integer")
 
-# Машины
 class Car(Auto):
     pass
-
 
 class Bus(Auto, Passenger):
     pass
 
-
 class CargoAuto(Auto, Cargo):
     pass
 
-# Лодки
 class Boat(Ship):
     pass
-
 
 class PassengerShip(Ship, Passenger):
     pass
 
-
 class CargoShip(Ship, Cargo):
     pass
 
-# Самолеты
 class Airplane(Plane):
     pass
-
 
 class PassengerPlane(Plane, Passenger):
     pass
 
-
 class CargoPlane(Plane, Cargo):
     pass
-
-
